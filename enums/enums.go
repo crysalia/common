@@ -6,6 +6,13 @@ type Element int8
 type IdType int8
 type CalcType int8
 type Stat int8
+type Class int8
+
+const (
+	Wizard Class = iota
+	Paladin
+	Ranger
+)
 
 const (
 	Common ItemRarity = iota
