@@ -1,6 +1,6 @@
 package entity
 
-import "crysalia/common/enums"
+import "github.com/crysalia/common/enums"
 
 type Item struct {
 	Id              string                         `bson:"id"`
